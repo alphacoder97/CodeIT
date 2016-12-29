@@ -34,4 +34,16 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:onClick="haha"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Kuch bhi type kar next activity mein ayega"
+        android:ems="10"
+        android:layout_alignBottom="@+id/btn_tp_1"
+        android:layout_alignStart="@+id/btn_tp_1"
+        android:layout_marginBottom="65dp"
+        android:id="@+id/editText" />
 </RelativeLayout>
