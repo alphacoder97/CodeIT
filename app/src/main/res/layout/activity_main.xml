@@ -16,6 +16,15 @@
         android:text="Hello World!"
         android:id="@+id/textView"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy New Year 2017!!!"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:id="@+id/newYear"/>
+
     <Button
         android:text="Click to go to new activity"
         android:layout_width="wrap_content"
